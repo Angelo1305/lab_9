@@ -9,7 +9,7 @@ function init() {
     const inputValue = input.value;
 
     // Show alert with name prepended
-    alert("Angelo Santillan: " + inputValue); // Replace 'Your Name' with your real name
+    alert("Angelo Santillan: " + inputValue); 
 
     // Update the headline text
     output.textContent = inputValue;

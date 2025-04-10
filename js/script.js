@@ -9,7 +9,7 @@ function init() {
     const inputValue = input.value;
 
     // Show alert with name prepended
-    alert("angelo santillan: " + inputValue);
+    alert("Angelo Santillan: " + inputValue);
 
     // Update the headline text
     output.textContent = inputValue;

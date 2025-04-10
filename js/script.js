@@ -1,11 +1,20 @@
-function init(){
-//add your javascrip between these two lines of code
- 
+function init() {
+  // Get references to DOM elements
+  const button = document.getElementById("entrybutton");
+  const input = document.getElementById("entryinput");
+  const output = document.getElementById("textoutput");
 
+  // Add click event listener to the button
+  button.addEventListener("click", function () {
+    const inputValue = input.value;
 
+    // Show alert with name prepended
+    alert("Your Name: " + inputValue); // Replace 'Your Name' with your real name
 
+    // Update the headline text
+    output.textContent = inputValue;
+  });
+}
 
-
-
-
-window.addEventListener('load', init);
+// Run init once the page loads
+window.addEventListener("load", init);
